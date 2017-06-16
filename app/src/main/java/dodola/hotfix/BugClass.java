@@ -10,6 +10,6 @@ package dodola.hotfix;
 public class BugClass {
 
     public String bug() {
-        return "bug class";
+        return "我修复了bug啦啦啦";
     }
 }

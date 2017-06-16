@@ -2,11 +2,11 @@
 apply plugin: 'groovy'
 
 repositories {
+    maven {url 'http://maven.aliyun.com/nexus/content/groups/public/'}
     mavenCentral()
 }
 
 dependencies {
-    compile gradleApi()
-    compile localGroovy()
-    compile 'org.javassist:javassist:3.18.+'
+//        compile 'org.javassist:javassist:3.18.+'
+    compile files('libs/javassist.jar')
 }
